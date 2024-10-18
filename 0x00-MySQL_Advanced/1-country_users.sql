@@ -6,4 +6,3 @@ CREATE TABLE Users(
 	name VARCHAR (255),
 	country char(2) NOT NULL defualt 'US' check (country IN('US', 'CO', 'TN'))
 );
-
